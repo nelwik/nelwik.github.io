@@ -1,6 +1,6 @@
 header {
 	background:#32598e;
-	background-image: url("../flywheel.jpg");
+	background-image: url("../images/flywheel.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 200px;
@@ -10,7 +10,7 @@ header {
 nav{
 	text-align: center;
 }
-nav a{background: rgba(229, 229, 229, 0.6);
+nav a{background: rgba(229, 229, 229, 0.3);
 	text-decoration: none;
 	border-radius: 5px;
 	padding: 10px 50px 10px 50px;
@@ -56,8 +56,64 @@ img {width:78%;
 .left {float:left;
 	width:25%;
 	background: #a8a8a8;
-	padding-bottom: 100px;}
+	padding-bottom: 220px;}
 
 .right{float:right;
 	width: 70%;
 	padding: 2%;}
+
+
+/*ASSIGNMENT 3: STYLING A TABLE*/
+	
+table {
+	font-family: helvetica neue, helvetica;
+	font-size: 15px;
+	width: 80%;
+	vertical-align: middle;
+	margin-top: 20px;
+	margin-left: 10%;
+}
+
+th {
+	border-style: solid;
+	border-width: 1px 1px 4px 1px;
+	border-color: #2F5581;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: #447ab9;
+	background: -webkit-linear-gradient(#7ca1ce 0%, #447ab9 100%);
+	background: -moz-linear-gradient(top,#7ca1ce 0%, #447ab9 100%);
+	background: -o-linear-gradient(#7ca1ce 0%, #447ab9 100%);
+	background: linear-gradient(#7ca1ce 0%, #447ab9 100%);
+	height: 15px;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 16px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+td {
+	border: 1px solid #C6D7EA;
+	background: rgba(198,215,234,0.3);
+	height: 15px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 2px;
+	text-shadow: 1px 1px #C6D7EA;
+}
+
+td:hover {background: rgba(198,215,234,1);
+	text-shadow: 2px 2px #7ca1ce;
+}
+
+tr > :first-child {
+	text-align: left;
+}
+
+tr {
+	color: rgba(0,0,0,0.6);
+}
+
+tr:hover{
+	color:rgba(0,0,0,1)
+}
