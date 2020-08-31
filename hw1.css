@@ -5,6 +5,7 @@ header {
 	background-size: cover;
 	height: 200px;
 	padding: 1px;
+
 }
 
 nav{
@@ -48,7 +49,7 @@ img {width:78%;
 	border: 1px solid #000000;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	margin-top: 30px;
 	display: block;
 }
@@ -56,7 +57,7 @@ img {width:78%;
 .left {float:left;
 	width:25%;
 	background: #a8a8a8;
-	padding-bottom: 220px;}
+	padding-bottom: 250px;}
 
 .right{float:right;
 	width: 70%;
@@ -103,7 +104,7 @@ td {
 }
 
 td:hover {background: rgba(198,215,234,1);
-	text-shadow: 2px 2px #7ca1ce;
+		text-shadow: 1px 1px #C6D7EA;
 }
 
 tr > :first-child {
